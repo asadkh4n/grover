@@ -1,0 +1,26 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:sortChrome": "node_modules/.bin/cypress run --spec cypress/integration/features/sort.feature --browser chrome",
+    "test:sortMozilla": "node_modules/.bin/cypress run --spec cypress/integration/features/sort.feature --browser firefox",
+    "test:all": "cypress run --spec \"**/*.feature\" --browser chrome --headless"
+  },
+  "author": "Asad",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress": "^7.2.0",
+    "cypress-xpath": "^1.6.2",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "prettier": "2.2.1"
+  }
+}

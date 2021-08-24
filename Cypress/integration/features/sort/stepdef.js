@@ -4,7 +4,7 @@ import SortFeatures from '../../pages/sort';
 const sortFeatures = new SortFeatures
 
 Given('I am on IMDb charts page', () => {
-    cy.visit(Cypress.env('antrag'));
+    cy.visit(Cypress.env('homePage'));
 })
 
 When(/^I select sort by '(.*)'$/, (sortBy) => {

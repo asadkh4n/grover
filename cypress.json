@@ -1,0 +1,15 @@
+{
+  "defaultCommandTimeout":15000,
+  "requestTimeout":8000,
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "env": {
+    "homePage": "https://www.imdb.com/chart/top/"
+  },
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "projectId": "s3i39x",
+  "reporter": "mochawesome",
+  "includeShadowDom": true
+}
+
