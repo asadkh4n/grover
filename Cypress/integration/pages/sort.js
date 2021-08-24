@@ -10,7 +10,7 @@ class SortFeatures
     }
 
     selectGenre(genre){
-        cy.get('.quickLinks').contains(genre).click()
+        cy.get('.quicklinks').contains(genre).click()
         cy.url().should('contain', '/search/title/?genres='+genre.toLowerCase())
     }
 
