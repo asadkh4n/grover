@@ -16,3 +16,5 @@
 5. Screenshots for failed tests can be found in screenshots and also the videos in videos folder.
 
 ### I left 2 test cases to fail so that you can see the debugging capabilites of Cypress in action. Each step in the test is run in a numbered list and you can easily identify where things went wrong and easily find the errors.
+
+### Please delete the node modules folder and re-run npm install if the project doesn't run.
